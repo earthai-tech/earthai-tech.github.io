@@ -19,12 +19,12 @@ author: L.Kouadio
 # --- List of links in the navigation bar --- #
 ###############################################
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+#navbar-links:
+#  About Me: "aboutme"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -32,14 +32,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.svg"
+avatar: "/assets/img/id1.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: /assets/img/palmci2.jpg"
+# title-img: /assets/img/palmci2.jpg"
 
 
 #####################################
@@ -51,11 +51,10 @@ title-img: /assets/img/palmci2.jpg"
 social-network-links:
   email: "etanoyau@gmail.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: Module.Aristote
   github: WEgeophysics
-  twitter: k_kouao
+#  twitter: k_kouao
 #  patreon: DeanAttali
-  youtube: danielwise8402
+#  youtube: danielwise8402
 #  medium: yourname
 #  reddit: yourname
   linkedin: "laurent-kouadio-483b2baa"
@@ -76,6 +75,7 @@ social-network-links:
   discord: "Daniel03/0354"
 #  kaggle: yourname
 #  hackerrank: yourname
+  facebook: Module.Aristote
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
