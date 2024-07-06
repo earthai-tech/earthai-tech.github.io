@@ -51,7 +51,7 @@ round-avatar: true
 social-network-links:
   email: "etanoyau@gmail.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: WEgeophysics
+  github: earthai-tech
 #  twitter: k_kouao
 #  patreon: DeanAttali
 #  youtube: danielwise8402
@@ -71,11 +71,11 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
   ORCID: "0000-0001-7259-7254"
-#  google-scholar: your google scholar
+  google-scholar: u6g_jzQAAAAJ
   discord: "Daniel03#0354"
 #  kaggle: yourname
 #  hackerrank: yourname
-#  facebook: Module.Aristote
+  facebook: Module.Aristote
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
