@@ -2,45 +2,95 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://www.lkouadio.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Redirects to the new site after 8 seconds -->
+  <meta http-equiv="refresh" content="8; url=https://www.lkouadio.com/">
   <link rel="canonical" href="https://www.lkouadio.com/">
-  <title>Redirecting...</title>
+  <title>Website Has Moved - Laurent Kouadio</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f4f7f9;
+      color: #2c3e50;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
+      padding: 1rem;
+      box-sizing: border-box;
       text-align: center;
     }
     .container {
-      padding: 2rem;
-      border-radius: 8px;
-      background-color: #fff;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      max-width: 600px;
+      padding: 3rem 2rem;
+      border-radius: 12px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e8e8e8;
+      transform: translateY(-20px);
+      animation: fadeInUp 0.5s ease-out forwards;
     }
-    a {
-      color: #007bff;
+    @keyframes fadeInUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #34495e;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .button {
+      display: inline-block;
+      background: linear-gradient(45deg, #3498db, #2980b9);
+      color: #ffffff;
+      font-size: 1.1rem;
+      font-weight: 600;
       text-decoration: none;
+      padding: 1rem 2.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+      transition: all 0.3s ease;
     }
-    a:hover {
-      text-decoration: underline;
+    .button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(52, 152, 219, 0.5);
+    }
+    .footer-note {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #7f8c8d;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Redirecting...</h1>
-    <p>You are being automatically redirected to my new portfolio at <a href="https://www.lkouadio.com/">www.lkouadio.com</a>.</p>
-    <p>If you are not redirected, <a href="https://www.lkouadio.com/">please click here</a>.</p>
+    <h1>This Website Has Moved!</h1>
+    <p>
+      Thank you for visiting. My professional portfolio has a new and improved home.
+      Please click the button below to see my latest research, projects, and publications.
+    </p>
+    <a href="https://www.lkouadio.com/" class="button">
+      Visit My New Portfolio
+    </a>
+    <p class="footer-note">
+      You will be automatically redirected in a few seconds.
+    </p>
   </div>
-  <script>
-    // Fallback redirect in case the meta tag fails
-    window.location.href = "https://www.lkouadio.com/";
-  </script>
 </body>
 </html>
+
