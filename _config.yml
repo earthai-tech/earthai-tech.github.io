@@ -10,10 +10,16 @@
 ############################
 
 # Name of website
-title: [] 
+title: "Laurent Kouadio | Portfolio" # You should give your site a title
 
 # Your name to show in the footer
-author: L.Kouadio
+author: Laurent Kouadio
+
+# --- [NEW] Add your website URL here --- #
+# The main URL for your website
+url: "https://www.lkouadio.com"
+# The base path of your site. For a custom domain, this is usually an empty string.
+baseurl: ""
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -198,7 +204,7 @@ page-img: "/assets/img/image_Nielle.png"
 # See more details about the parameters below at https://utteranc.es/
 #utterances:
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  issue-term: title   # Mapping between blog posts and GitHub issues
+#  issue-term: title    # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
@@ -289,4 +295,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
